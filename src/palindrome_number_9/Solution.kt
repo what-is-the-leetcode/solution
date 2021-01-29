@@ -6,9 +6,6 @@ class Solution {
         if (x < 0) {
             return false
         }
-        if (x / 10 == 0) {
-            return true
-        }
         var virtualX = x
         val ten = 10
         var tmp = 0
