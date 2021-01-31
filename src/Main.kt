@@ -1,9 +1,9 @@
-import roman_to_integer_13.Solution
+import longest_common_prefix_14.Solution
 
 fun main() {
-    val testSet: List<String> = listOf("III", "IV", "IX", "LVIII", "MCMXCIV")
+    val testSet: List<Array<String>> = listOf(arrayOf("flower", "flow", "flight"), arrayOf("dog", "racecar", "car"), arrayOf(), arrayOf("", "car"))
 
     for (test in testSet) {
-        println(Solution().romanToInt(test))
+        println(Solution().longestCommonPrefix(test))
     }
 }
