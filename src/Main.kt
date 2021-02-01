@@ -1,9 +1,9 @@
-import longest_common_prefix_14.Solution
+import valid_parentheses_20.Solution
 
 fun main() {
-    val testSet: List<Array<String>> = listOf(arrayOf("flower", "flow", "flight"), arrayOf("dog", "racecar", "car"), arrayOf(), arrayOf("", "car"))
+    val testSet: List<String> = listOf("({{{{}}}))", "()", "()[]{}", "(]",  "([)]", "{[]}", "[", "]")
 
     for (test in testSet) {
-        println(Solution().longestCommonPrefix(test))
+        println(Solution().isValid(test))
     }
 }
