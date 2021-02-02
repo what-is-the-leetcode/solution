@@ -8,25 +8,6 @@ package merge_two_sorted_lists_21
  * 5. left, right 둘 다 null 이 현재 노드 반환.
  */
 class Solution {
-    private fun connect(head: ListNode, left: ListNode?, right: ListNode?): ListNode? {
-        if (left == null && right == null) {
-            return null
-        }
-
-        if (left == null) {
-            return right!!.also { head.next = it }
-        } else if (right == null) {
-            return left!!.also { head.next = it }
-        }
-
-        if (left.`val` > right.`val`) {
-            right.next = connect(head.next!!, left, right.next)
-            return right
-        } else {
-            left.next = connect(head.next!!, left.next, right)
-            return left
-        }
-    }
 
     fun mergeTwoLists(l1: ListNode?, l2: ListNode?): ListNode? {
         val head = ListNode(-9999)
