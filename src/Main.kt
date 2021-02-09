@@ -1,5 +1,5 @@
-import maximum_subarray_53.Solution
+import algorithm.ClimbStairs
 
 fun main() {
-    println(Solution().maxSubArray(intArrayOf(-2, 1, -3, 4, -1, 2, 1, -5, 4)))
+    println(ClimbStairs().climbStairs(6))
 }

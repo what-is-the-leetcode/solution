@@ -1,6 +1,6 @@
-package remove_duplicates_from_sorted_array_26
+package algorithm
 
-class Solution {
+class RemoveDuplicatesFromSortedArray {
     fun removeDuplicates(nums: IntArray): Int {
 
         var count = 0

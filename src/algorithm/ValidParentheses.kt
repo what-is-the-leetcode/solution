@@ -1,6 +1,6 @@
-package valid_parentheses_20
+package algorithm
 
-class Solution {
+class ValidParentheses {
     fun isValid(s: String): Boolean {
         val stack: MutableList<Char> = mutableListOf()
 

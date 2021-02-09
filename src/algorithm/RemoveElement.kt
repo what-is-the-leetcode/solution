@@ -1,4 +1,4 @@
-package remove_element_27
+package algorithm
 
 /**
  * 현재 위치의 값이 주어진 값인 `val`과 같다면 유요한 위치(limit)의 마지막 값으로 변경한다. 단, 현재 위치의 index 값은 변하지 않음.
@@ -6,7 +6,7 @@ package remove_element_27
  *
  * `val`과 다르다면 현재 위치의 index 를 증가 시킨다.
  */
-class Solution {
+class RemoveElement {
     fun removeElement(nums: IntArray, `val`: Int): Int {
         var cur = 0
         var limit = nums.size

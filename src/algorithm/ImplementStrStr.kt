@@ -1,6 +1,6 @@
-package implement_str_str_28
+package algorithm
 
-class Solution {
+class ImplementStrStr {
     fun strStr(haystack: String, needle: String): Int {
         if (needle.isEmpty()) {
             return 0

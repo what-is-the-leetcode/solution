@@ -1,11 +1,11 @@
-package longest_common_prefix_14
+package algorithm
 
 /**
  * 1. Prefix를 제일 처음 문자로 만든다.
  * 2. 이후 데이터를 비교 후, common prefix를 만족하는 가장 긴 단어로 만든다.
  * 3. 새로 만들어진 prefix로 이후 데이터를 반복한다.
  */
-class Solution {
+class LongestCommonPrefix {
     private fun getPrefix(prefix: String, str: String): String {
         if (str.startsWith(prefix)) {
             return prefix

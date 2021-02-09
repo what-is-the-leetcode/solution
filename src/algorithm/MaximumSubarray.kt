@@ -1,6 +1,6 @@
-package maximum_subarray_53
+package algorithm
 
-class Solution {
+class MaximumSubarray {
     fun maxSubArray(nums: IntArray): Int {
         val sum: MutableList<Int> = MutableList(nums.size) { -100001 }
 

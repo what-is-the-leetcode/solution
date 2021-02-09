@@ -1,6 +1,6 @@
-package search_insert_position_35
+package algorithm
 
-class Solution {
+class SearchInsertPosition {
     private fun probe(left: IntArray, right: IntArray, target: Int): Int {
         if (left.isNotEmpty() && left.last() < target) {
             val tmp = right.size / 2

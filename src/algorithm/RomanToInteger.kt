@@ -1,7 +1,7 @@
-package roman_to_integer_13
+package algorithm
 
 // https://leetcode.com/problems/roman-to-integer/
-class Solution {
+class RomanToInteger {
     fun romanToInt(s: String): Int {
         var one = 1
         var five = 5

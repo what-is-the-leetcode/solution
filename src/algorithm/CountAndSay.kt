@@ -1,9 +1,9 @@
-package count_and_say_38
+package algorithm
 
 /**
  * 앞의 값과 달라지는 순간 잘라서 count and say 룰 한다.
  */
-class Solution {
+class CountAndSay {
     private fun split(nums: IntArray): IntArray {
         var cursor = 0
         var count = 0

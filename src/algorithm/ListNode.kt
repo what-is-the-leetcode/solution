@@ -1,4 +1,4 @@
-package merge_two_sorted_lists_21
+package algorithm
 
 class ListNode(val `val`: Int) {
     var next: ListNode? = null

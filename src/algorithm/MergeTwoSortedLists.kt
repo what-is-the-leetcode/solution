@@ -1,4 +1,4 @@
-package merge_two_sorted_lists_21
+package algorithm
 
 /**
  * 1. left 와 right 를 비교한 후 작은 값을 현재 노드의 next 로 할당.
@@ -7,7 +7,7 @@ package merge_two_sorted_lists_21
  * 4. right 가 null 이면 left 전체를 할당.
  * 5. left, right 둘 다 null 이 현재 노드 반환.
  */
-class Solution {
+class MergeTwoSortedLists {
 
     fun mergeTwoLists(l1: ListNode?, l2: ListNode?): ListNode? {
         val head = ListNode(-9999)
