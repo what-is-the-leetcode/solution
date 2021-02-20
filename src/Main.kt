@@ -1,5 +1,5 @@
-import algorithm.PascalsTriangle
+import algorithm.PascalsTriangleII
 
 fun main() {
-    println(PascalsTriangle().generate(5))
+    println(PascalsTriangleII().getRow(3))
 }
