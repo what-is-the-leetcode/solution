@@ -1,5 +1,5 @@
-import algorithm.PascalsTriangleII
+import algorithm.BestTimeToBuyAndSellStockIII
 
 fun main() {
-    println(PascalsTriangleII().getRow(3))
+    println(BestTimeToBuyAndSellStockIII().maxProfit(intArrayOf(2, 1, 2, 0, 1)))
 }
