@@ -1,5 +1,5 @@
-import algorithm.BestTimeToBuyAndSellStockIII
+import algorithm.ValidPalindrome
 
 fun main() {
-    println(BestTimeToBuyAndSellStockIII().maxProfit(intArrayOf(2, 1, 2, 0, 1)))
+    print(ValidPalindrome().isPalindrome("0P"))
 }
