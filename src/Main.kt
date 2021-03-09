@@ -1,5 +1,5 @@
-import algorithm.ExcelSheetColumnTitle
+import algorithm.MajorityElement
 
 fun main() {
-    println(ExcelSheetColumnTitle().convertToTitle(52))
+    println(MajorityElement().majorityElement(intArrayOf(3, 2, 3)))
 }
