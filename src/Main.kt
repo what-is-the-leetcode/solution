@@ -1,5 +1,5 @@
-import algorithm.MajorityElement
+import algorithm.FactorialTrailingZeroes
 
 fun main() {
-    println(MajorityElement().majorityElement(intArrayOf(3, 2, 3)))
+    println(FactorialTrailingZeroes().trailingZeroes(0))
 }
