@@ -1,5 +1,5 @@
-import algorithm.FactorialTrailingZeroes
+import algorithm.HappyNumber
 
 fun main() {
-    println(FactorialTrailingZeroes().trailingZeroes(0))
+    println(HappyNumber().isHappy(7))
 }
