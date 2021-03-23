@@ -1,5 +1,5 @@
-import algorithm.CountPrimes
+import algorithm.IsomorphicStrings
 
 fun main() {
-    println(CountPrimes().countPrimes(2))
+    println(IsomorphicStrings().isIsomorphic("badc", "bada"))
 }
