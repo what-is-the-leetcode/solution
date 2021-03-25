@@ -1,4 +1,5 @@
 import algorithm.ContainsDuplicate
+import algorithm.ContainsDuplicateII
 import algorithm.ListNode
 import algorithm.ReverseLinkedList
 
@@ -15,5 +16,5 @@ fun main() {
 //    node3rd.next = node4th
 //    node4th.next = node5th
 
-    println(ContainsDuplicate().containsDuplicate(intArrayOf(1, 2, 3, 4 )))
+    println(ContainsDuplicateII().containsNearbyDuplicate(intArrayOf(4,1,2,3,1,5), 3))
 }
