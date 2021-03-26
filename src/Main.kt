@@ -1,7 +1,7 @@
-import algorithm.ContainsDuplicate
 import algorithm.ContainsDuplicateII
+import algorithm.InvertBinaryTree
 import algorithm.ListNode
-import algorithm.ReverseLinkedList
+import algorithm.TreeNode
 
 fun main() {
 
@@ -16,5 +16,12 @@ fun main() {
 //    node3rd.next = node4th
 //    node4th.next = node5th
 
-    println(ContainsDuplicateII().containsNearbyDuplicate(intArrayOf(4,1,2,3,1,5), 3))
+    val node1st = TreeNode(2)
+    val node2nd = TreeNode(1)
+    val node3rd = TreeNode(3)
+
+    node1st.left = node2nd
+    node1st.right = node3rd
+
+    println(InvertBinaryTree().invertTree(node1st))
 }
