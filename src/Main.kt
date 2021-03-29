@@ -1,7 +1,4 @@
-import algorithm.ContainsDuplicateII
-import algorithm.InvertBinaryTree
-import algorithm.ListNode
-import algorithm.TreeNode
+import algorithm.*
 
 fun main() {
 
@@ -16,12 +13,13 @@ fun main() {
 //    node3rd.next = node4th
 //    node4th.next = node5th
 
-    val node1st = TreeNode(2)
-    val node2nd = TreeNode(1)
-    val node3rd = TreeNode(3)
+//    val node1st = TreeNode(2)
+//    val node2nd = TreeNode(1)
+//    val node3rd = TreeNode(3)
+//
+//    node1st.left = node2nd
+//    node1st.right = node3rd
 
-    node1st.left = node2nd
-    node1st.right = node3rd
 
-    println(InvertBinaryTree().invertTree(node1st))
+    println(SummaryRanges().summaryRanges(intArrayOf(-2147483648,-2147483647,2147483647)))
 }
