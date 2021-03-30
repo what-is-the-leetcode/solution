@@ -21,5 +21,5 @@ fun main() {
 //    node1st.right = node3rd
 
 
-    println(SummaryRanges().summaryRanges(intArrayOf(-2147483648,-2147483647,2147483647)))
+    println(PowerOfTwo().isPowerOfTwo(-2147483648))
 }
