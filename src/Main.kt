@@ -40,5 +40,5 @@ fun main() {
     rootLeftRight.left = rootLeftRightLeft
     rootLeftRight.right = rootLeftRightRight
 
-    println(LowestCommonAncestorOfABinarySearchTree().lowestCommonAncestor(root, rootLeft, rootRight))
+    println(ValidAnagram().isAnagram("rat", "car"))
 }
