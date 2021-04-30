@@ -40,5 +40,5 @@ fun main() {
     rootLeftRight.left = rootLeftRightLeft
     rootLeftRight.right = rootLeftRightRight
 
-    println(AddDigits().addDigits(38))
+    println(UglyNumber().isUgly(1))
 }
