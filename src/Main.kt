@@ -40,5 +40,5 @@ fun main() {
     rootLeftRight.left = rootLeftRightLeft
     rootLeftRight.right = rootLeftRightRight
 
-    println(UglyNumber().isUgly(1))
+    println(MissingNumber().missingNumber(intArrayOf(3,0,1)))
 }
