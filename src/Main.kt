@@ -40,5 +40,5 @@ fun main() {
     rootLeftRight.left = rootLeftRightLeft
     rootLeftRight.right = rootLeftRightRight
 
-    println(MissingNumber().missingNumber(intArrayOf(3,0,1)))
+    println(MoveZeroes().moveZeroes(intArrayOf(0,1,0,3,12)))
 }
