@@ -40,5 +40,5 @@ fun main() {
     rootLeftRight.left = rootLeftRightLeft
     rootLeftRight.right = rootLeftRightRight
 
-    println(WordPattern().wordPattern("ab", "happy hacking"))
+    println(PowerOfFour().isPowerOfFour(1))
 }
