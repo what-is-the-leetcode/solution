@@ -40,5 +40,5 @@ fun main() {
     rootLeftRight.left = rootLeftRightLeft
     rootLeftRight.right = rootLeftRightRight
 
-    println(ReverseString().reverseString(charArrayOf('h', 'e', 'l', 'l', 'o')))
+    println(ReverseVowelsOfAString().reverseVowels("Marge, let's \"went.\" I await news telegram."))
 }
