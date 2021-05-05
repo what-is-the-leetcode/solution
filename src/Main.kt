@@ -40,5 +40,5 @@ fun main() {
     rootLeftRight.left = rootLeftRightLeft
     rootLeftRight.right = rootLeftRightRight
 
-    println(PowerOfFour().isPowerOfFour(1))
+    println(ReverseString().reverseString(charArrayOf('h', 'e', 'l', 'l', 'o')))
 }
