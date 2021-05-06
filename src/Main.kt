@@ -40,5 +40,5 @@ fun main() {
     rootLeftRight.left = rootLeftRightLeft
     rootLeftRight.right = rootLeftRightRight
 
-    println(IntersectionOfTwoArrays().intersection(intArrayOf(1, 2, 2, 1), intArrayOf(2, 2)).contentToString())
+    println(IntersectionOfTwoArraysII().intersect(intArrayOf(1, 2, 2, 1), intArrayOf(2)).contentToString())
 }
