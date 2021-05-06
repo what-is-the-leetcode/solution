@@ -40,5 +40,5 @@ fun main() {
     rootLeftRight.left = rootLeftRightLeft
     rootLeftRight.right = rootLeftRightRight
 
-    println(ReverseVowelsOfAString().reverseVowels("Marge, let's \"went.\" I await news telegram."))
+    println(IntersectionOfTwoArrays().intersection(intArrayOf(1, 2, 2, 1), intArrayOf(2, 2)).contentToString())
 }
