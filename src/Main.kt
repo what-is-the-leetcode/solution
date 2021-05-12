@@ -40,5 +40,5 @@ fun main() {
     rootLeftRight.left = rootLeftRightLeft
     rootLeftRight.right = rootLeftRightRight
 
-    println(FirstUniqueCharacterInAString().firstUniqChar("a"))
+    println(FindTheDifference().findTheDifference("abcd", "abced"))
 }
