@@ -40,5 +40,5 @@ fun main() {
     rootLeftRight.left = rootLeftRightLeft
     rootLeftRight.right = rootLeftRightRight
 
-    println(FindTheDifference().findTheDifference("abcd", "abced"))
+    println(IsSubsequence().isSubsequence("b", "abc"))
 }
