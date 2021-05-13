@@ -15,30 +15,30 @@ fun main() {
 //    node4th.next = node5th
 //    node5th.next = node6th
 
-    val root = TreeNode(6)
+    val root = TreeNode(1)
     val rootLeft = TreeNode(2)
-    val rootRight = TreeNode(8)
+    val rootRight = TreeNode(3)
 
     root.left = rootLeft
     root.right = rootRight
 
     // rootLeft
-    val rootLeftLeft = TreeNode(0)
-    val rootLeftRight = TreeNode(4)
+    val rootLeftLeft = TreeNode(4)
+    val rootLeftRight = TreeNode(5)
     rootLeft.left = rootLeftLeft
     rootLeft.right = rootLeftRight
 
     // rootRight
-    val rootRightLeft = TreeNode(7)
-    val rootRightRight = TreeNode(9)
-    rootRight.left = rootRightLeft
-    rootRight.right = rootRightRight
+//    val rootRightLeft = TreeNode(4)
+//    val rootRightRight = TreeNode(5)
+//    rootRight.left = rootRightLeft
+//    rootRight.right = rootRightRight
 
     // rootLeftRight
-    val rootLeftRightLeft = TreeNode(3)
-    val rootLeftRightRight = TreeNode(5)
-    rootLeftRight.left = rootLeftRightLeft
-    rootLeftRight.right = rootLeftRightRight
+//    val rootLeftRightLeft = TreeNode(3)
+//    val rootLeftRightRight = TreeNode(5)
+//    rootLeftRight.left = rootLeftRightLeft
+//    rootLeftRight.right = rootLeftRightRight
 
-    println(IsSubsequence().isSubsequence("b", "abc"))
+    println(SumOfLeftLeaves().sumOfLeftLeaves(root))
 }
