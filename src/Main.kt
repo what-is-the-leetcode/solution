@@ -40,5 +40,5 @@ fun main() {
 //    rootLeftRight.left = rootLeftRightLeft
 //    rootLeftRight.right = rootLeftRightRight
 
-    println(SumOfLeftLeaves().sumOfLeftLeaves(root))
+    println(LongestPalindrome().longestPalindrome("abccccdd"))
 }
