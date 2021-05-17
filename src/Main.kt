@@ -40,5 +40,5 @@ fun main() {
 //    rootLeftRight.left = rootLeftRightLeft
 //    rootLeftRight.right = rootLeftRightRight
 
-    println(ThirdMaximumNumber().thirdMax(intArrayOf(5, 2, 2)))
+    println(NumberOfSegmentsInAString().countSegments(", , , ,        a, eaefa"))
 }
