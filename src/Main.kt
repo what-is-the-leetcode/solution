@@ -40,5 +40,5 @@ fun main() {
 //    rootLeftRight.left = rootLeftRightLeft
 //    rootLeftRight.right = rootLeftRightRight
 
-    println(ArrangingCoins().arrangeCoins(Int.MAX_VALUE))
+    println(FindAllNumbersDisappearedInAnArray().findDisappearedNumbers(intArrayOf(1,1)))
 }
