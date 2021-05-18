@@ -40,5 +40,5 @@ fun main() {
 //    rootLeftRight.left = rootLeftRightLeft
 //    rootLeftRight.right = rootLeftRightRight
 
-    println(FindAllNumbersDisappearedInAnArray().findDisappearedNumbers(intArrayOf(1,1)))
+    println(AssignCookies().findContentChildren(intArrayOf(1,2), intArrayOf()))
 }
