@@ -40,5 +40,5 @@ fun main() {
 //    rootLeftRight.left = rootLeftRightLeft
 //    rootLeftRight.right = rootLeftRightRight
 
-    println(NumberOfSegmentsInAString().countSegments(", , , ,        a, eaefa"))
+    println(ArrangingCoins().arrangeCoins(Int.MAX_VALUE))
 }
