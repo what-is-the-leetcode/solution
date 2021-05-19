@@ -40,5 +40,7 @@ fun main() {
 //    rootLeftRight.left = rootLeftRightLeft
 //    rootLeftRight.right = rootLeftRightRight
 
-    println(RepeatedSubstringPattern().repeatedSubstringPattern("aabaaba"))
+    println(IslandPerimeter().islandPerimeter(arrayOf(
+            intArrayOf(0,1)
+    )))
 }
