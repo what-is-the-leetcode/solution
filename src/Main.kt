@@ -40,5 +40,5 @@ fun main() {
 //    rootLeftRight.left = rootLeftRightLeft
 //    rootLeftRight.right = rootLeftRightRight
 
-    println(AssignCookies().findContentChildren(intArrayOf(1,2), intArrayOf()))
+    println(RepeatedSubstringPattern().repeatedSubstringPattern("aabaaba"))
 }
