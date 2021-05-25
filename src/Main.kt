@@ -40,7 +40,5 @@ fun main() {
 //    rootLeftRight.left = rootLeftRightLeft
 //    rootLeftRight.right = rootLeftRightRight
 
-    println(IslandPerimeter().islandPerimeter(arrayOf(
-            intArrayOf(0,1)
-    )))
+    println(NumberComplement().findComplement(2147483647))
 }
